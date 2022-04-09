@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/ce086135-a07e-4d25-aaba-225d8fe01264/resourceGroups/test-myExpressApp-RG/providers/Microsoft.Web/sites/test-myExpressApp",
-    "appService.deploySubpath": "myExpressApp"
-}
