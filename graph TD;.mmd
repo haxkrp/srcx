@@ -1,0 +1,11 @@
+graph TD;
+    DBeaver(Win) --> Local_Network;
+    Local_Network --> Internet;
+    Internet --> Nginx_Proxy(Ubuntu2);
+    Nginx_Proxy --> Database_Server(Ubuntu);
+    Database_Server --> Nginx_Proxy;
+    Database_Server --> Redpanda(Ubuntu4);
+    Redpanda --> Grafana(Ubuntu3);
+    Applications --> Redpanda;
+    Redpanda --> Grafana;
+    Grafana --> DBeaver; 
